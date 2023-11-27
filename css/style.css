@@ -1,0 +1,244 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(to top bottom, white, lightgrey);
+    height: 100vh;
+}
+#head-consola{
+    background: linear-gradient(rgb(250, 60, 60),rgb(233, 74, 74));
+    width: 350px;
+    height: 300px;
+    border-radius: 25px;
+    margin:auto;
+    border: 3px solid rgb(170, 40, 40);
+}
+#circl{
+    position: absolute;
+    background: linear-gradient(rgb(138, 44, 38),rgb(143, 45, 45));
+    width: 20px;
+    height: 20px;
+    border-radius: 25px;
+    border: 3px solid rgb(170, 40, 40);
+}
+.c1{
+    margin-top: 8px;
+    margin-left: 20px;
+}
+.c2{
+    margin-top: 8px;
+    margin-left: 160px;
+}
+.c3{
+    margin-top: 8px;
+    margin-left: 300px;
+}
+.c4{
+    margin-top: 4px;
+    margin-left: 20px;
+}
+.c5{
+    margin-top: 4px;
+    margin-left: 300px;
+}
+#blackbox{
+    background: linear-gradient(rgb(22, 22, 22),rgb(43, 43, 43));
+    width: 275px;
+    height: 225px;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: 10%;
+    border: 3px solid rgb(170, 40, 40);
+}
+#screen{
+    background-image: url("../img/pokemon-emerald.gif");
+    background-size: cover;
+    width: 250px;
+    height: 175px;
+    margin-left: 3.5%;
+    margin-top: 3%;
+    border: 3px solid rgb(119, 119, 119);
+}
+#logo{
+    background-image: url("../img/Game_Boy_Advance_SP_logo.svg.png");
+    background-size: cover;
+    width: 250px;
+    height: 23px;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 2%;
+
+}
+#mid-consola{
+    background: linear-gradient(rgb(250, 60, 60),rgb(233, 74, 74));
+    width: 350px;
+    height: 30px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin:auto;
+    border: 3px solid rgb(170, 40, 40);
+}
+#body-consola{
+    background: linear-gradient(rgb(250, 60, 60),rgb(233, 74, 74));
+    width: 350px;
+    height: 300px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin:auto;
+    border: 3px solid rgb(170, 40, 40);
+}
+#lightbutton{
+    position: absolute;
+    background: linear-gradient(rgb(34, 34, 34),rgb(73, 73, 73));
+    width: 15px;
+    height: 15px;
+    border-radius: 25px;
+    margin-top: 12px;
+    margin-left: 165px;
+    border: 3px solid rgb(29, 29, 29);
+}
+#lightcharg{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    margin-left: 339px;
+    border: 2px solid rgb(29, 29, 29);
+}
+.lc1{
+    background: linear-gradient(rgb(93, 231, 100), rgb(53, 230, 62));
+    margin-top: 9px;
+}
+.lc2{
+    background: linear-gradient(rgb(76, 77, 76), rgb(56, 56, 56));
+    margin-top: 30px;
+}
+#cruceta {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+}
+#crcn{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: rgb(73, 73, 73);
+    width: 30px;
+    height: 30px;
+    margin-top: 98px;
+    margin-left: 68px;
+}
+.crtop{
+    background: rgb(73, 73, 73);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-top: 72px;
+    margin-left: 68px;
+    border-left: 3px solid rgb(34, 34, 34);
+    border-right: 3px solid rgb(34, 34, 34);
+    border-top: 3px solid rgb(34, 34, 34);
+}
+.crbot{
+    background: rgb(73, 73, 73);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: 68px;
+    margin-top: 127px;
+    border-bottom: 3px solid rgb(34, 34, 34);
+    border-left: 3px solid rgb(34, 34, 34);
+    border-right: 3px solid rgb(34, 34, 34);
+}
+.criz{
+    background: rgb(73, 73, 73);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-top: 98px;
+    margin-left: 40px;
+    border-left: 3px solid rgb(34, 34, 34);
+    border-bottom: 3px solid rgb(34, 34, 34);
+    border-top: 3px solid rgb(34, 34, 34);
+}
+.crdr{
+    background: rgb(73, 73, 73);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 98px;
+    margin-left: 98px;
+    border-bottom: 3px solid rgb(34, 34, 34);
+    border-right: 3px solid rgb(34, 34, 34);
+    border-top: 3px solid rgb(34, 34, 34);
+}
+#buttonplay{
+    position: absolute;
+    background: rgb(73, 73, 73);
+    border-radius: 25px;
+    width: 40px;
+    height: 40px;
+    border: 3px solid rgb(34, 34, 34)
+}
+.bta{
+    margin-top: 75px;
+    margin-left: 270px;
+}
+.btb{
+    margin-top: 110px;
+    margin-left: 205px;
+}
+#options{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: rgb(73, 73, 73);
+    border-radius: 25px;
+    border: 3px solid rgb(34, 34, 34)
+}
+.op1{
+    margin-top: 265px;
+    margin-left: 125px;
+}
+.op2{
+    margin-top: 265px;
+    margin-left: 215px;
+}
+
+#sonido{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: rgb(73, 73, 73);
+    border-radius: 25px;
+    border: 1px solid rgb(34, 34, 34)
+}
+#sonido2{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: rgb(73, 73, 73);
+    border-radius: 25px;
+    border: 2px solid rgb(34, 34, 34)
+}
+.s1,.s2,.s3,.s4{
+    margin-top: 175px;
+}
+.s5,.s6,.s7,.s8{
+    margin-top: 195px;
+}
+.s9,.s10,.s11,.s12{
+    margin-top: 215px;
+}
+.s13,.s14,.s15,.s16{
+    margin-top: 235px;
+}
+.s1,.s5,.s9,.s13{
+    margin-left: 140px;
+}
+.s2,.s6,.s10,.s14{
+    margin-left: 165px;
+}
+.s3,.s7,.s11,.s15{
+    margin-left: 190px;
+}
+.s4,.s8,.s12,.s16{
+    margin-left: 215px;
+}
